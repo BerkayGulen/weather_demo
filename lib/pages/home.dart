@@ -10,7 +10,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   String time = '';
   String weatherUrl = ' ';
-  int temperature = 0;
+  int temperature = 1;
 
   setupWeather() async {
     Weather weather = Weather();
